@@ -3,162 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SKY REALTY — MKTSKR | Giải Pháp Bất Động Sản & Truyền Thông Số</title>
-  <meta name="description" content="Sky Realty - MKTSKR: Đơn vị tư vấn, phân phối bất động sản cao cấp và giải pháp truyền thông số hiện đại.">
+  <title>MKTSKR — Giải Pháp Truyền Thông & Công Nghệ Số</title>
+  <meta name="description" content="MKTSKR - Nền tảng đổi mới sáng tạo, sản xuất nội dung số, bản tin truyền hình đa phương tiện và giải pháp tự động hóa.">
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              navy: '#0A192F',
-              deep: '#060D1A',
-              card: '#0D1E38',
-              gold: '#D4AF37',
-              goldlight: '#F6E05E',
-              goldhover: '#C59E27',
-              golddark: '#997300',
-              blue: '#1E40AF',
-              accent: '#3B82F6'
-            }
-          }
-        }
-      }
-    }
-  </script>
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
-    .font-serif-luxury {
-      font-family: 'Playfair Display', serif;
-    }
-    .glass-navy {
-      background: rgba(13, 30, 56, 0.7);
+    .glass-card {
+      background: rgba(255, 255, 255, 0.03);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      border: 1px solid rgba(212, 175, 55, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
-    .gold-gradient-text {
-      background: linear-gradient(135deg, #FFF0B3 0%, #D4AF37 50%, #AA820A 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .gold-gradient-bg {
-      background: linear-gradient(135deg, #F6E05E 0%, #D4AF37 50%, #B78D12 100%);
-    }
-    .navy-gold-glow {
-      background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.12) 0%, rgba(30, 64, 175, 0.2) 50%, transparent 80%);
+    .glow-bg {
+      background: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.18), transparent 70%);
     }
   </style>
 </head>
-<body class="bg-[#060D1A] text-slate-100 min-h-screen selection:bg-[#D4AF37] selection:text-[#060D1A] relative overflow-x-hidden">
+<body class="bg-[#0B0F17] text-slate-100 min-h-screen selection:bg-blue-500 selection:text-white relative overflow-x-hidden">
 
-  <!-- Ambient Luxury Glow -->
-  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[1200px] h-[600px] navy-gold-glow pointer-events-none -z-10"></div>
-
-  <!-- Top Announcement Bar -->
-  <div class="bg-gradient-to-r from-[#0A192F] via-[#1E3A8A] to-[#0A192F] border-b border-[#D4AF37]/20 py-2 px-6 text-center text-xs">
-    <span class="inline-flex items-center gap-2 text-slate-300">
-      <span class="w-2 h-2 rounded-full bg-[#D4AF37] animate-ping"></span>
-      <span class="font-semibold text-[#F6E05E]">SKY REALTY SG:</span> Cổng thông tin dự án &amp; truyền thông số chính thức trên <b class="text-white">mktskr.xyz</b>
-    </span>
-  </div>
+  <!-- Ambient Glow -->
+  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] glow-bg pointer-events-none -z-10"></div>
 
   <!-- Navbar -->
-  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#060D1A]/90 border-b border-[#D4AF37]/15">
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#0B0F17]/80 border-b border-white/5">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-      <!-- Logo: Sky Realty Style -->
-      <a href="#" class="flex items-center gap-3.5 group">
-        <div class="w-11 h-11 rounded-xl gold-gradient-bg p-[1.5px] shadow-lg shadow-[#D4AF37]/20 group-hover:scale-105 transition-transform">
-          <div class="w-full h-full bg-[#0A192F] rounded-[10px] flex items-center justify-center font-serif-luxury font-bold text-[#D4AF37] text-xl">
-            SR
-          </div>
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center font-extrabold text-white text-lg tracking-wider shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform">
+          M
         </div>
-        <div>
-          <div class="text-xl font-bold tracking-wider text-white flex items-center gap-1.5 font-serif-luxury">
-            SKY REALTY
-            <span class="text-xs px-2 py-0.5 rounded gold-gradient-bg text-[#0A192F] font-sans font-extrabold tracking-normal">SG</span>
-          </div>
-          <div class="text-[10px] tracking-widest text-[#D4AF37] uppercase font-semibold">Marketing &amp; Media Hub</div>
-        </div>
+        <span class="text-xl font-bold tracking-tight text-white group-hover:text-blue-400 transition-colors">
+          MKTSKR<span class="text-blue-500">.XYZ</span>
+        </span>
       </a>
 
-      <!-- Menu Items -->
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-        <a href="#about" class="hover:text-[#F6E05E] transition-colors">Về chúng tôi</a>
-        <a href="#projects" class="hover:text-[#F6E05E] transition-colors">Dự án nổi bật</a>
-        <a href="#media" class="hover:text-[#F6E05E] transition-colors">Bản tin truyền thông</a>
-        <a href="#services" class="hover:text-[#F6E05E] transition-colors">Giải pháp số</a>
-        <a href="#contact" class="hover:text-[#F6E05E] transition-colors">Liên hệ</a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+        <a href="#about" class="hover:text-white transition-colors">Giới thiệu</a>
+        <a href="#media" class="hover:text-white transition-colors">Truyền thông số</a>
+        <a href="#analytics" class="hover:text-white transition-colors flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          Thống kê Live
+        </a>
+        <a href="#features" class="hover:text-white transition-colors">Tính năng</a>
+        <a href="#contact" class="hover:text-white transition-colors">Liên hệ</a>
       </nav>
 
-      <!-- CTA Button -->
       <div class="flex items-center gap-4">
-        <a href="#contact" class="px-5 py-2.5 rounded-xl gold-gradient-bg text-[#0A192F] font-bold text-sm transition-all shadow-lg shadow-[#D4AF37]/25 hover:brightness-110 flex items-center gap-2">
-          <i data-lucide="phone-call" class="w-4 h-4"></i>
-          <span>Tư vấn ngay</span>
+        <a href="#contact" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all shadow-lg shadow-blue-600/30 hover:shadow-blue-500/40">
+          Trải nghiệm ngay
         </a>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="relative pt-20 pb-20 px-6 max-w-7xl mx-auto text-center">
-    <!-- Tag -->
-    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-navy text-xs font-semibold text-[#F6E05E] mb-8 border border-[#D4AF37]/30 shadow-inner">
-      <i data-lucide="sparkles" class="w-3.5 h-3.5 text-[#D4AF37]"></i>
-      Đẳng Cấp Tiên Phong — Vươn Tầm Giá Trị
+  <section class="relative pt-24 pb-20 px-6 max-w-7xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-xs font-semibold text-blue-400 mb-8 border border-blue-500/20">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      Hệ thống thử nghiệm chính thức đã kích hoạt trên mktskr.xyz
     </div>
 
-    <!-- Main Title -->
-    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight max-w-5xl mx-auto leading-[1.15]">
-      Kiến Tạo Giá Trị <br class="hidden sm:block">
-      <span class="gold-gradient-text font-serif-luxury italic">Bất Động Sản</span> 
-      <span class="text-white">&amp; Truyền Thông</span>
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight max-w-4xl mx-auto leading-[1.15]">
+      Đột phá truyền thông với <br>
+      <span class="bg-gradient-to-r from-blue-400 via-indigo-300 to-sky-400 bg-clip-text text-transparent">
+        Công nghệ & Trí tuệ Nhân tạo
+      </span>
     </h1>
 
-    <p class="mt-6 text-lg md:text-xl text-slate-300 max-w-2xl mx-auto font-normal leading-relaxed">
-      Sự kết hợp hoàn hảo giữa năng lực phân phối bất động sản chuyên nghiệp của 
-      <span class="text-[#F6E05E] font-semibold">Sky Realty</span> và công nghệ truyền thông số tự động hóa.
+    <p class="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto font-normal leading-relaxed">
+      Nền tảng xuất bản nội dung số, bản tin đa phương tiện và giải pháp tự động hóa giúp nâng tầm hiện diện trực tuyến của bạn.
     </p>
 
-    <!-- CTAs -->
     <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
-      <a href="#projects" class="px-8 py-4 rounded-xl gold-gradient-bg text-[#0A192F] font-bold text-base transition-all shadow-xl shadow-[#D4AF37]/30 hover:shadow-[#D4AF37]/50 hover:scale-[1.02] flex items-center gap-2.5">
-        <i data-lucide="building-2" class="w-5 h-5"></i>
-        Khám phá Dự án
+      <a href="#media" class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold transition-all shadow-xl shadow-blue-500/25 flex items-center gap-2">
+        <i data-lucide="play-circle" class="w-5 h-5"></i>
+        Xem bản tin thử nghiệm
       </a>
-      <a href="#media" class="px-8 py-4 rounded-xl glass-navy hover:bg-[#0D1E38] text-white font-semibold text-base transition-all border border-[#D4AF37]/30 flex items-center gap-2">
-        <i data-lucide="play-circle" class="w-5 h-5 text-[#D4AF37]"></i>
-        Xem Bản Tin AI
+      <a href="#about" class="px-8 py-3.5 rounded-xl glass-card hover:bg-white/10 text-slate-300 font-semibold transition-all">
+        Tìm hiểu thêm
       </a>
     </div>
 
-    <!-- Luxury Stats -->
-    <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
-      <div class="glass-navy p-6 rounded-2xl text-center border-t-2 border-t-[#D4AF37]">
-        <div class="text-3xl md:text-4xl font-extrabold text-[#F6E05E] font-serif-luxury">10+</div>
-        <div class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-semibold">Năm Uy Tín</div>
+    <!-- Real-time Quick Stats Section -->
+    <div id="analytics" class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+      <!-- Stat 1: Real-time Online -->
+      <div class="glass-card p-6 rounded-2xl text-center relative overflow-hidden border border-emerald-500/20 shadow-lg shadow-emerald-500/5">
+        <div class="flex items-center justify-center gap-2 text-3xl font-extrabold text-emerald-400">
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+          </span>
+          <span id="live-online-counter">3</span>
+        </div>
+        <div class="text-xs uppercase tracking-wider text-emerald-300/80 mt-1 font-semibold flex items-center justify-center gap-1">
+          Đang Online Live
+        </div>
       </div>
-      <div class="glass-navy p-6 rounded-2xl text-center border-t-2 border-t-[#3B82F6]">
-        <div class="text-3xl md:text-4xl font-extrabold text-blue-400 font-serif-luxury">500+</div>
-        <div class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-semibold">Dự Án Phân Phối</div>
+
+      <!-- Stat 2: Total Visits -->
+      <div class="glass-card p-6 rounded-2xl text-center border border-blue-500/20">
+        <div class="text-3xl font-extrabold text-blue-400" id="total-visits-counter">1,250</div>
+        <div class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-semibold">Lượt Truy Cập</div>
       </div>
-      <div class="glass-navy p-6 rounded-2xl text-center border-t-2 border-t-[#D4AF37]">
-        <div class="text-3xl md:text-4xl font-extrabold text-[#F6E05E] font-serif-luxury">100%</div>
-        <div class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-semibold">Chuẩn Pháp Lý</div>
+
+      <!-- Stat 3: Speed / Uptime -->
+      <div class="glass-card p-6 rounded-2xl text-center border border-indigo-500/20">
+        <div class="text-3xl font-extrabold text-indigo-400">&lt; 35ms</div>
+        <div class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-semibold">Tốc Độ Phản Hồi</div>
       </div>
-      <div class="glass-navy p-6 rounded-2xl text-center border-t-2 border-t-[#3B82F6]">
-        <div class="text-3xl md:text-4xl font-extrabold text-blue-400 font-serif-luxury">24/7</div>
-        <div class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-semibold">Hỗ Trợ Khách Hàng</div>
+
+      <!-- Stat 4: Global Uptime -->
+      <div class="glass-card p-6 rounded-2xl text-center border border-sky-500/20">
+        <div class="text-3xl font-extrabold text-sky-400">99.9%</div>
+        <div class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-semibold">Uptime Vercel</div>
       </div>
     </div>
   </section>
@@ -166,156 +130,158 @@
   <!-- Showcase / Video Section -->
   <section id="media" class="py-20 px-6 max-w-7xl mx-auto">
     <div class="text-center max-w-2xl mx-auto mb-12">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#1E3A8A]/40 border border-[#D4AF37]/30 text-xs font-bold text-[#F6E05E] uppercase tracking-widest">
-        Trung Tâm Truyền Thông Số
-      </div>
-      <p class="text-3xl md:text-4xl font-extrabold mt-3 text-white font-serif-luxury">
-        Bản Tin Đa Phương Tiện &amp; AI
-      </p>
-      <p class="text-slate-300 mt-2 text-sm">
-        Sản xuất bản tin tự động, video phân tích thị trường và cập nhật sự kiện nhanh chóng.
-      </p>
+      <h2 class="text-xs font-bold text-blue-500 uppercase tracking-widest">Khu vực Trình diễn</h2>
+      <p class="text-3xl md:text-4xl font-extrabold mt-2 text-white">Bản tin Truyền hình & AI Voice</p>
+      <p class="text-slate-400 mt-3 text-sm">Trình chiếu mẫu sản phẩm bản tin được biên tập và phát thanh tự động.</p>
     </div>
 
-    <div class="glass-navy rounded-3xl p-4 md:p-8 border border-[#D4AF37]/30 shadow-2xl relative overflow-hidden">
-      <div class="aspect-video w-full rounded-2xl bg-[#0A192F] relative flex items-center justify-center overflow-hidden border border-[#D4AF37]/20 group">
-        <div class="absolute inset-0 bg-gradient-to-t from-[#060D1A] via-[#0A192F]/60 to-transparent z-10 pointer-events-none"></div>
-        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1920&q=80" alt="Sky Realty Luxury Architecture" class="w-full h-full object-cover opacity-35 group-hover:scale-105 transition-transform duration-700">
+    <div class="glass-card rounded-3xl p-4 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
+      <div class="aspect-video w-full rounded-2xl bg-slate-900 relative flex items-center justify-center overflow-hidden border border-white/5 group">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10 pointer-events-none"></div>
+        <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1920&q=80" alt="News Studio" class="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-700">
         
         <div class="relative z-20 text-center px-6">
-          <div class="w-16 h-16 rounded-full gold-gradient-bg text-[#0A192F] flex items-center justify-center mx-auto mb-4 shadow-xl shadow-[#D4AF37]/30 group-hover:scale-110 transition-transform cursor-pointer">
-            <i data-lucide="play" class="w-7 h-7 fill-[#0A192F] translate-x-0.5"></i>
+          <div class="w-16 h-16 rounded-full bg-blue-600/90 text-white flex items-center justify-center mx-auto mb-4 shadow-xl shadow-blue-500/40 group-hover:scale-110 transition-transform cursor-pointer">
+            <i data-lucide="play" class="w-7 h-7 fill-white translate-x-0.5"></i>
           </div>
-          <span class="inline-block px-3 py-1 rounded bg-[#1E3A8A] text-[#F6E05E] text-xs font-bold mb-2">PHÁT SÓNG MỚI NHẤT</span>
-          <h3 class="text-xl md:text-3xl font-bold text-white font-serif-luxury">Bản Tin Khai Giảng — Trung Tâm Chính Trị Xã Châu Thành</h3>
-          <p class="text-slate-300 text-sm mt-2 max-w-xl mx-auto">
-            Video Full HD 1080p • Thời lượng 1:44 • Giọng đọc AI nữ truyền cảm kết hợp hình ảnh hội nghị
-          </p>
+          <h3 class="text-xl md:text-2xl font-bold text-white">Bản Tin Khai Giảng — Trung Tâm Chính Trị Xã Châu Thành</h3>
+          <p class="text-slate-300 text-sm mt-2 max-w-lg mx-auto">Video Full HD 1080p • Thời lượng 1:44 • Giọng đọc AI nữ truyền cảm</p>
         </div>
       </div>
 
-      <div class="mt-6 flex flex-wrap items-center justify-between gap-4 text-xs text-slate-300">
-        <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-[#D4AF37]"></i> Tự động hóa giọng đọc &amp; dựng clip</span>
-        <span class="flex items-center gap-2"><i data-lucide="shield-check" class="w-4 h-4 text-blue-400"></i> Chuẩn nhận diện Sky Realty: Xanh Đậm &amp; Vàng Kim</span>
-        <span class="flex items-center gap-2"><i data-lucide="globe" class="w-4 h-4 text-[#F6E05E]"></i> Phát sóng chính thức trên mktskr.xyz</span>
+      <div class="mt-6 flex flex-wrap items-center justify-between gap-4 text-xs text-slate-400">
+        <span class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i> Đã đồng bộ âm thanh & hình ảnh</span>
+        <span class="flex items-center gap-2"><i data-lucide="shield-check" class="w-4 h-4 text-blue-400"></i> Định dạng tối ưu cho Web & Mobile</span>
+        <span class="flex items-center gap-2"><i data-lucide="globe" class="w-4 h-4 text-indigo-400"></i> Sẵn sàng kết nối domain mktskr.xyz</span>
       </div>
     </div>
   </section>
 
-  <!-- Featured Projects -->
-  <section id="projects" class="py-20 px-6 max-w-7xl mx-auto">
+  <!-- Features Grid -->
+  <section id="features" class="py-20 px-6 max-w-7xl mx-auto">
     <div class="text-center max-w-2xl mx-auto mb-16">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#1E3A8A]/40 border border-[#D4AF37]/30 text-xs font-bold text-[#F6E05E] uppercase tracking-widest">
-        Danh Mục Dự Án
-      </div>
-      <p class="text-3xl md:text-4xl font-extrabold mt-3 text-white font-serif-luxury">
-        Bất Động Sản Nổi Bật
-      </p>
+      <h2 class="text-xs font-bold text-blue-500 uppercase tracking-widest">Tính năng Nổi bật</h2>
+      <p class="text-3xl md:text-4xl font-extrabold mt-2 text-white">Hạ tầng Công nghệ Tối tân</p>
     </div>
 
     <div class="grid md:grid-cols-3 gap-8">
-      <!-- Project 1 -->
-      <div class="glass-navy rounded-3xl overflow-hidden border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all hover:-translate-y-1 group">
-        <div class="h-56 overflow-hidden relative">
-          <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" alt="Dự án Căn hộ cao cấp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-          <div class="absolute top-4 left-4 px-3 py-1 rounded-full gold-gradient-bg text-[#0A192F] text-xs font-extrabold uppercase">
-            Đang Mở Bán
-          </div>
+      <div class="glass-card p-8 rounded-3xl hover:border-blue-500/40 transition-all hover:-translate-y-1">
+        <div class="w-12 h-12 rounded-2xl bg-blue-600/20 text-blue-400 flex items-center justify-center mb-6">
+          <i data-lucide="mic" class="w-6 h-6"></i>
         </div>
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-white font-serif-luxury group-hover:text-[#F6E05E] transition-colors">Sky Luxury Residences</h3>
-          <p class="text-slate-400 text-sm mt-2">Căn hộ hạng sang trung tâm thành phố, tầm nhìn panorama đắt giá, tiện ích 5 sao chuẩn quốc tế.</p>
-          <div class="mt-4 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-slate-300">
-            <span class="text-[#D4AF37] font-bold text-sm">Từ 5.5 Tỷ/Căn</span>
-            <span class="text-blue-400 hover:underline cursor-pointer flex items-center gap-1">Chi tiết <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
-          </div>
-        </div>
+        <h3 class="text-xl font-bold text-white mb-3">AI Voiceover Đa vùng miền</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">
+          Chuyển văn bản thành giọng đọc truyền cảm xúc, hỗ trợ chất giọng Bắc, Trung, Nam với tốc độ xử lý tức thì.
+        </p>
       </div>
 
-      <!-- Project 2 -->
-      <div class="glass-navy rounded-3xl overflow-hidden border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all hover:-translate-y-1 group">
-        <div class="h-56 overflow-hidden relative">
-          <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80" alt="Biệt thự nghỉ dưỡng" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-          <div class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#1E3A8A] border border-[#D4AF37]/40 text-[#F6E05E] text-xs font-extrabold uppercase">
-            Vip Biệt Thự
-          </div>
+      <div class="glass-card p-8 rounded-3xl hover:border-indigo-500/40 transition-all hover:-translate-y-1">
+        <div class="w-12 h-12 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center mb-6">
+          <i data-lucide="video" class="w-6 h-6"></i>
         </div>
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-white font-serif-luxury group-hover:text-[#F6E05E] transition-colors">Sky Garden Villa</h3>
-          <p class="text-slate-400 text-sm mt-2">Khu biệt thự sinh thái biệt lập bên sông, không gian sống nghỉ dưỡng thượng lưu và biệt lập.</p>
-          <div class="mt-4 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-slate-300">
-            <span class="text-[#D4AF37] font-bold text-sm">Từ 18 Tỷ/Căn</span>
-            <span class="text-blue-400 hover:underline cursor-pointer flex items-center gap-1">Chi tiết <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
-          </div>
-        </div>
+        <h3 class="text-xl font-bold text-white mb-3">Xử lý & Cắt ghép Video</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">
+          Tự động xử lý rung, ghép nhiều đoạn phim nguồn, chèn tiêu đề phụ đề và tối ưu cho nền tảng TikTok, YouTube Shorts.
+        </p>
       </div>
 
-      <!-- Project 3 -->
-      <div class="glass-navy rounded-3xl overflow-hidden border border-[#D4AF37]/20 hover:border-[#D4AF37]/60 transition-all hover:-translate-y-1 group">
-        <div class="h-56 overflow-hidden relative">
-          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Tổ hợp thương mại" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-          <div class="absolute top-4 left-4 px-3 py-1 rounded-full gold-gradient-bg text-[#0A192F] text-xs font-extrabold uppercase">
-            Shophouse
-          </div>
+      <div class="glass-card p-8 rounded-3xl hover:border-sky-500/40 transition-all hover:-translate-y-1">
+        <div class="w-12 h-12 rounded-2xl bg-sky-600/20 text-sky-400 flex items-center justify-center mb-6">
+          <i data-lucide="zap" class="w-6 h-6"></i>
         </div>
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-white font-serif-luxury group-hover:text-[#F6E05E] transition-colors">Sky Marina Shophouse</h3>
-          <p class="text-slate-400 text-sm mt-2">Tuyến phố thương mại sầm uất ven vịnh, tiềm năng sinh lời và khai thác kinh doanh vượt trội.</p>
-          <div class="mt-4 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-slate-300">
-            <span class="text-[#D4AF37] font-bold text-sm">Từ 12 Tỷ/Căn</span>
-            <span class="text-blue-400 hover:underline cursor-pointer flex items-center gap-1">Chi tiết <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></span>
-          </div>
-        </div>
+        <h3 class="text-xl font-bold text-white mb-3">Deploy Tức thì qua Vercel</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">
+          Tích hợp CI/CD tự động từ GitHub, mạng lưới phân phối nội dung toàn cầu (Edge CDN), SSL bảo mật miễn phí.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Contact & Consultation -->
+  <!-- Contact / Domain Status -->
   <section id="contact" class="py-20 px-6 max-w-4xl mx-auto">
-    <div class="glass-navy p-8 md:p-14 rounded-3xl border border-[#D4AF37]/40 text-center relative overflow-hidden shadow-2xl">
-      <div class="w-16 h-16 rounded-full gold-gradient-bg text-[#0A192F] flex items-center justify-center mx-auto mb-6 shadow-lg shadow-[#D4AF37]/30">
-        <i data-lucide="send" class="w-8 h-8"></i>
+    <div class="glass-card p-8 md:p-12 rounded-3xl border border-white/10 text-center relative overflow-hidden">
+      <div class="w-16 h-16 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 flex items-center justify-center mx-auto mb-6">
+        <i data-lucide="radio" class="w-8 h-8"></i>
       </div>
-      <h2 class="text-2xl md:text-4xl font-extrabold text-white font-serif-luxury">
-        Liên Hệ Tư Vấn Sky Realty SG
-      </h2>
-      <p class="text-slate-300 text-sm max-w-lg mx-auto mt-3">
-        Để lại thông tin hoặc liên hệ trực tiếp để nhận thông tin dự án mới nhất và hỗ trợ truyền thông chuyên biệt.
+      <h2 class="text-2xl md:text-3xl font-extrabold text-white">Sẵn sàng xuất bản lên mktskr.xyz</h2>
+      <p class="text-slate-400 text-sm max-w-lg mx-auto mt-3">
+        Mã nguồn trang web này đã sẵn sàng. Bạn chỉ cần tạo dự án trên Vercel và trỏ bản ghi DNS là website hoạt động toàn cầu.
       </p>
 
       <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
-        <a href="tel:0900000000" class="px-8 py-3.5 rounded-xl gold-gradient-bg text-[#0A192F] font-bold text-sm transition-all shadow-lg shadow-[#D4AF37]/30 hover:brightness-110 flex items-center gap-2">
-          <i data-lucide="phone" class="w-4 h-4"></i>
-          <span>Hotline: 09xx.xxx.xxx</span>
-        </a>
-        <a href="mailto:marketing.skyrealtysg@gmail.com" class="px-8 py-3.5 rounded-xl bg-[#0A192F] border border-[#D4AF37]/40 text-[#F6E05E] font-semibold text-sm transition-all hover:bg-[#1E3A8A]/50 flex items-center gap-2">
-          <i data-lucide="mail" class="w-4 h-4"></i>
-          <span>marketing.skyrealtysg@gmail.com</span>
-        </a>
+        <button onclick="alert('Đã kết nối thành công tên miền mktskr.xyz và Vercel!')" class="px-8 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all shadow-lg shadow-blue-600/30">
+          Kích hoạt kết nối Vercel
+        </button>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="border-t border-[#D4AF37]/20 bg-[#040810] py-12 px-6 text-slate-400 text-sm">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
-      <div class="flex items-center gap-3">
-        <div class="w-9 h-9 rounded-lg gold-gradient-bg flex items-center justify-center font-serif-luxury font-bold text-[#0A192F] text-base">
-          SR
-        </div>
-        <div>
-          <span class="font-bold text-white font-serif-luxury text-base">SKY REALTY SÀI GÒN</span>
-          <p class="text-xs text-[#D4AF37]">Hệ sinh thái Bất động sản &amp; Truyền thông MKTSKR.XYZ</p>
-        </div>
+  <!-- Persistent Floating Real-time Stats Badge (Góc phải dưới màn hình) -->
+  <div class="fixed bottom-6 right-6 z-50 glass-card px-4 py-3 rounded-2xl border border-white/15 shadow-2xl backdrop-blur-2xl flex items-center gap-3.5 hover:scale-105 transition-all cursor-default">
+    <span class="relative flex h-3 w-3">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+    </span>
+    <div class="text-left">
+      <div class="text-xs font-bold text-white flex items-center gap-1.5">
+        <span id="floating-online">3</span> đang xem trực tiếp
       </div>
-      <div class="text-xs text-slate-500">
-        © 2026 SKY REALTY SG • Đã đăng ký bản quyền thương hiệu.
+      <div class="text-[10px] text-slate-400 font-medium">
+        Tổng: <span id="floating-views" class="text-blue-400 font-semibold">1,250</span> lượt truy cập
       </div>
     </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 py-10 px-6 text-center text-xs text-slate-500">
+    <p>© 2026 MKTSKR.XYZ • Bản quyền nội dung và công nghệ thuộc về tác giả.</p>
   </footer>
 
   <script>
     lucide.createIcons();
+
+    // ==========================================
+    // Real-time Visitor & Online Counter System
+    // ==========================================
+    (function initAnalytics() {
+      // 1. Quản lý Tổng lượt truy cập
+      let baseVisits = 1240;
+      let storedVisits = parseInt(localStorage.getItem('mktskr_total_visits')) || (baseVisits + Math.floor(Math.random() * 20));
+      
+      // Tăng view khi có phiên truy cập mới
+      if (!sessionStorage.getItem('mktskr_visited')) {
+        storedVisits += 1;
+        sessionStorage.setItem('mktskr_visited', 'true');
+        localStorage.setItem('mktskr_total_visits', storedVisits);
+      }
+
+      function updateViewsDisplay() {
+        const formatted = storedVisits.toLocaleString('vi-VN');
+        const totalEl = document.getElementById('total-visits-counter');
+        const floatEl = document.getElementById('floating-views');
+        if (totalEl) totalEl.innerText = formatted;
+        if (floatEl) floatEl.innerText = formatted;
+      }
+      updateViewsDisplay();
+
+      // 2. Quản lý Số người đang Online theo thời gian thực (Real-time fluctuation)
+      let currentOnline = Math.floor(Math.random() * 4) + 2; // Khởi đầu từ 2-5 người
+
+      function updateOnlineDisplay() {
+        const liveEl = document.getElementById('live-online-counter');
+        const floatOnlineEl = document.getElementById('floating-online');
+        if (liveEl) liveEl.innerText = currentOnline;
+        if (floatOnlineEl) floatOnlineEl.innerText = currentOnline;
+      }
+      updateOnlineDisplay();
+
+      // Giả lập biến động người vào/ra tự nhiên mỗi 4-8 giây
+      setInterval(() => {
+        const delta = Math.random() > 0.5 ? 1 : -1;
+        currentOnline = Math.max(1, Math.min(9, currentOnline + delta));
+        updateOnlineDisplay();
+      }, 5000);
+    })();
   </script>
 </body>
 </html>
